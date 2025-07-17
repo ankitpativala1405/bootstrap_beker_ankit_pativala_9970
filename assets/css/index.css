@@ -2,3 +2,27 @@
     background: linear-gradient(to left, #d4e7eb, #e8f2f4, #fff, #fff);
     width: 100%;
 }
+
+.bg-gradiant-blue {
+    background: #e8f2f4;
+    background: radial-gradient(at left top, #e8f2f4, #e8f2f4, #FFFFFF, #FFFFFF);
+    width: 100%;
+}
+
+.col-one {
+    padding: 0;
+}
+
+.py-25 {
+    padding: 50px 20px;
+}
+
+@media (min-width: 991px) {
+    .bg-lg-transparent {
+        background-color: transparent !important;
+    }
+
+    .py-25 {
+        padding: 100px 20px;
+    }
+}
