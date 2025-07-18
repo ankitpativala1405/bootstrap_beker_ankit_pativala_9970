@@ -17,6 +17,17 @@
     padding: 50px 20px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #f8f8f8;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: black !important;
+}
+
 @media (min-width: 991px) {
     .bg-lg-transparent {
         background-color: transparent !important;
