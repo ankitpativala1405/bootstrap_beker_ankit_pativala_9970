@@ -28,6 +28,10 @@
     color: black !important;
 }
 
+
+
+
+
 @media (min-width: 991px) {
     .bg-lg-transparent {
         background-color: transparent !important;
